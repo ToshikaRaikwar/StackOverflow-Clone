@@ -3,7 +3,8 @@ import "./LeftSidebar.css";
 import { NavLink } from "react-router-dom";
 import globe from "../../assessts/globe.png";
 import shop from "../../assessts/shop.png";
-
+import chatbot from "../../assessts/chatbot.png";
+import instagram from "../../assessts/instagram.png";
 const LeftSidebar = () => {
   const handleBuyButtonClick = async () => {
     // Make an API call to your server-side endpoint to initiate the payment process
@@ -48,6 +49,14 @@ const LeftSidebar = () => {
           <NavLink to="https://6497311cce5f6e0617761084--chic-gumption-a6267f.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
            <img src={shop} alt="shop" width="30px" height="30px" />
             <p style={{ paddingLeft: "10px" }}>Buy</p>
+            </NavLink>
+            <NavLink to="https://main--fanciful-panda-d7681f.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
+           <img src={chatbot} alt="chatbot" width="30px" height="30px" />
+            <p style={{ paddingLeft: "10px" }}>ChatBot</p>
+            </NavLink>
+            <NavLink to="https://instagram-clone-pearl-seven.vercel.app/signup" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
+           <img src={instagram} alt="instagram" width="30px" height="30px" />
+            <p style={{ paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
         
         </div>
