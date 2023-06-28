@@ -56,7 +56,7 @@ const LeftSidebar = () => {
             </NavLink>
             <NavLink to="https://instagram-clone-pearl-seven.vercel.app/signup" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
            <img src={instagram} alt="instagram" width="30px" height="30px" />
-            <p style={{ paddingLeft: "10px" }}>ChatBot</p>
+            <p style={{ paddingLeft: "10px" }}>Instagram</p>
             </NavLink>
         
         </div>
