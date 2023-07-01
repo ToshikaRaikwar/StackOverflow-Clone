@@ -50,7 +50,7 @@ const LeftSidebar = () => {
            <img src={shop} alt="shop" width="30px" height="30px" />
             <p style={{ paddingLeft: "10px" }}>Buy</p>
             </NavLink>
-            <NavLink to="https://main--fanciful-panda-d7681f.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
+            <NavLink to="https://main--chimerical-yeot-4abf22.netlify.app/" className="side-nav-links" activeClassName="active" style={{ paddingLeft: "40px" }}>
            <img src={chatbot} alt="chatbot" width="30px" height="30px" />
             <p style={{ paddingLeft: "10px" }}>ChatBot</p>
             </NavLink>
